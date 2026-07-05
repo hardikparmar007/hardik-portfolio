@@ -164,7 +164,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/hardik-parmar-undefined-a82888407"
+                  href="https://www.linkedin.com/in/hardik-parmar-a82888407"
                   target="_blank"
                   className="flex items-center gap-2 text-zinc-300 hover:text-cyan-400"
                 >
