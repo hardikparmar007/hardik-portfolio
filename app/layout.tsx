@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   title: "Parmar Hardik | Full Stack Developer",
   description:
     "Portfolio of Parmar Hardik - Full Stack Developer skilled in React, Next.js, and modern web development.",
+    verification:{
+      google:"VWHPSR0LkxYRBulCaKIe8MWn-qoei32-q0YSGN8VxmQ",
+    },
   keywords: [
     "Hardik Parmar",
     "Full Stack Developer",
