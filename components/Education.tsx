@@ -2,8 +2,13 @@ export default function Education() {
   return (
     <section
       id="education"
-      className="py-24 px-6 bg-black text-white"
+      className="relative pt-14 pb-24 px-6 bg-slate-950 text-white overflow-hidden"
     >
+      {/* Background Glow */}
+<div className="absolute inset-0 -z-10">
+  <div className="absolute top-20 left-20 w-72 h-72 bg-cyan-500/10 blur-3xl rounded-full" />
+  <div className="absolute bottom-20 right-20 w-72 h-72 bg-blue-500/10 blur-3xl rounded-full" />
+</div>
       <div className="max-w-6xl mx-auto">
         <p className="text-blue-400 font-semibold mb-2">
           EDUCATION
@@ -13,7 +18,7 @@ export default function Education() {
           My Education
         </h2>
 
-        <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-8">
+        <div className="group bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-6 shadow-lg hover:border-cyan-500/40 hover:shadow-cyan-500/20 transition-colors duration-300">
           <h3 className="text-2xl font-semibold mb-2">
             IMSC (CA & IT)
           </h3>
