@@ -129,11 +129,11 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="relative flex flex-1 items-center justify-center mt-8 lg:mt-0 lg:translate-x-25"
         >
-          <div className="absolute left-1/2 top-1/2 h-[300px] w-[300px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-cyan-500/30 animate-ping" />
+          <div className="absolute left-[50.5%] sm:left-1/2 top-1/2 h-[300px] w-[300px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-cyan-500/30 animate-ping" />
 
-<div className="absolute left-1/2 top-1/2 h-[340px] w-[340px] sm:h-[420px] sm:w-[420px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-cyan-500/20" />
+<div className="absolute left-[50.5%] sm:left-1/2 top-1/2 h-[340px] w-[340px] sm:h-[420px] sm:w-[420px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-cyan-500/20" />
 
-<div className="absolute left-1/2 top-1/2 h-[380px] w-[380px] sm:h-[460px] sm:w-[460px] lg:h-[500px] lg:w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-blue-500/10" />
+<div className="absolute left-[50.5%] sm:left-1/2 top-1/2 h-[380px] w-[380px] sm:h-[460px] sm:w-[460px] lg:h-[500px] lg:w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-blue-500/10" />
 
           <motion.div
             whileHover={{ scale: 1.08, rotate: 3 }}
