@@ -75,7 +75,7 @@ export default function Hero() {
 
               <a
   href="#contact"
-  className="flex h-14 w-48 items-center justify-center rounded-xl border border-cyan-400/60 bg-white/5 font-semibold text-cyan-300 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:bg-cyan-500 hover:text-white"
+  className="group relative flex h-14 w-48 items-center justify-center rounded-xl border border-cyan-400/60 bg-white/5 font-semibold text-cyan-300 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:bg-cyan-500 hover:text-white"
 >
   {/* Glow background */}
   <span className="absolute inset-0 rounded-xl bg-cyan-500/10 opacity-0 blur-xl transition-opacity duration-300 group-hover:opacity-100"></span>
@@ -129,9 +129,11 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="relative flex flex-1 items-center justify-center"
         >
-          <div className="absolute h-[340px] w-[340px] rounded-full border border-cyan-500/30 animate-ping" />
-          <div className="absolute h-[420px] w-[420px] rounded-full border border-cyan-500/20" />
-          <div className="absolute h-[500px] w-[500px] rounded-full border border-blue-500/10" />
+          <div className="absolute left-1/2 top-1/2 h-[300px] w-[300px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-cyan-500/30 animate-ping" />
+
+<div className="absolute left-1/2 top-1/2 h-[340px] w-[340px] sm:h-[420px] sm:w-[420px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-cyan-500/20" />
+
+<div className="absolute left-1/2 top-1/2 h-[370px] w-[370px] sm:h-[450px] sm:w-[450px] lg:h-[500px] lg:w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-blue-500/10" />
 
           <motion.div
             whileHover={{ scale: 1.08, rotate: 3 }}
