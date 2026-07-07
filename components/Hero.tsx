@@ -13,8 +13,8 @@ export default function Hero() {
     >
       {/* Background Glow */}
       <div className="absolute inset-0">
-        <div className="absolute top-20 left-10 h-72 w-72 rounded-full bg-cyan-500/20 blur-3xl" />
-        <div className="absolute bottom-20 right-10 h-72 w-72 rounded-full bg-indigo-500/20 blur-3xl" />
+        <div className="absolute top-20 left-20 h-72 w-72 rounded-full bg-cyan-500/20 blur-3xl" />
+        <div className="absolute bottom-20 right-20 h-72 w-72 rounded-full bg-indigo-500/20 blur-3xl" />
       </div>
 
       <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl flex-col-reverse items-center justify-center gap-16 px-6 pt-28 lg:flex-row lg:px-12">
