@@ -27,7 +27,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="relative scroll-mt-20 pt-20 pb-20 px-6 bg-slate-950 text-white overflow-hidden"
+      className="relative scroll-mt-20 pt-20 pb-5 px-6 bg-slate-950 text-white overflow-hidden"
     >
       {/* Background Glow */}
       <div className="absolute inset-0 -z-10">
@@ -42,13 +42,13 @@ export default function Projects() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-16"
+          className="text-center mb-14"
         >
-          <p className="text-cyan-400 text:1xl md:text-2xl tracking-[0.1em] uppercase mb-3">
+          <p className="text-cyan-400 text:1xl md:text-2xl tracking-[0.1em] uppercase mb-3 -mt-2">
             Projects
           </p>
 
-          <h2 className="text-4xl md:text-6xl font-bold">
+          <h2 className="text-4xl md:text-6xl font-bold -mt-3">
             My{" "}
             <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
               Work
@@ -57,7 +57,7 @@ export default function Projects() {
         </motion.div>
 
         {/* Projects Grid */}
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-8 -mt-10">
           {projects.map((project, index) => (
             <motion.div
               key={project.title}

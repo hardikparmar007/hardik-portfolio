@@ -31,7 +31,7 @@ export default function About() {
             Modern Digital
           </span>
           <br />
-          Experiences
+          <span className="-mt-8">Experiences</span> 
         </h2>
 
         {/* Main Content */}
@@ -47,7 +47,7 @@ export default function About() {
     <div className="absolute -inset-10 bg-cyan-500/10 blur-3xl rounded-full" />
 
     <div className="relative text-center">
-      <div className="w-44 h-44 rounded-full overflow-hidden border-4 border-cyan-400 shadow-lg mx-auto justify-center mt-1">
+      <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-cyan-400 shadow-lg mx-auto justify-center mt-1">
         <Image
           src="/pp.png"
           alt="Parmar Hardik"

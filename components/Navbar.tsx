@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Navbar() {
@@ -50,10 +50,18 @@ useEffect(() => {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
         
         {/* Logo */}
-        <h1 className="text-2xl font-extrabold tracking-wide cursor-pointer select-none">
-          <span className="text-cyan-400">Hardik</span>
-          <span className="text-white">.</span>
-        </h1>
+        <h1 className="text-2xl font-extrabold tracking-wide cursor-pointer select-none flex items-center gap-2">
+  <Image
+    src="/hicon.png"
+    alt="Hardik Logo"
+    width={40}
+    height={40}
+    className="rounded-full"
+    priority
+  />
+  <span className="text-cyan-400">Hardik</span>
+  <span className="text-white">.</span>
+</h1>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8 font-medium">

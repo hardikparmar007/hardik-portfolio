@@ -2,24 +2,24 @@ export default function Education() {
   return (
     <section
       id="education"
-      className="relative pt-14 pb-24 px-6 bg-slate-950 text-white overflow-hidden"
+      className="relative py-1 px-6 bg-slate-950 text-white overflow-hidden  "
     >
       {/* Background Glow */}
-<div className="absolute inset-0 -z-10">
+<div className="absolute inset-0 -z-10 ">
   <div className="absolute top-20 left-20 w-72 h-72 bg-cyan-500/10 blur-3xl rounded-full" />
   <div className="absolute bottom-20 right-20 w-72 h-72 bg-blue-500/10 blur-3xl rounded-full" />
 </div>
       <div className="max-w-6xl mx-auto">
-        <p className="text-blue-400 font-semibold mb-2">
+        <p className="text-blue-400 font-semibold mb-1">
           EDUCATION
         </p>
 
-        <h2 className="text-4xl md:text-5xl font-bold mb-12">
+        <h2 className="text-4xl md:text-5xl font-bold mb-11">
           My Education
         </h2>
 
-        <div className="group bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-6 shadow-lg hover:border-cyan-500/40 hover:shadow-cyan-500/20 transition-colors duration-300">
-          <h3 className="text-2xl font-semibold mb-2">
+        <div className="group bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-6 shadow-lg hover:border-cyan-500/40 hover:shadow-cyan-500/20 transition-colors duration-300 -mt-8">
+          <h3 className="text-2xl font-semibold mb-2 ">
             IMSC (CA & IT)
           </h3>
 
