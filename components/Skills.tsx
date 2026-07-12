@@ -29,7 +29,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="relative scroll-mt-28 py-40 px-6 bg-slate-950 text-white overflow-hidden"
+      className="relative scroll-mt-28 pt-20 py-40 px-6 bg-slate-950 text-white overflow-hidden"
     >
       {/* Background Glow */}
       <div className="absolute inset-0 -z-10">

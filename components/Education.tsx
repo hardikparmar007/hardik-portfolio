@@ -2,7 +2,7 @@ export default function Education() {
   return (
     <section
       id="education"
-      className="relative py-1 px-6 bg-slate-950 text-white overflow-hidden  "
+      className="relative -mt-2 py-1 px-6 bg-slate-950 text-white overflow-hidden  "
     >
       {/* Background Glow */}
 <div className="absolute inset-0 -z-10 ">

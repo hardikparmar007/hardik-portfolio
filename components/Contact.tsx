@@ -13,7 +13,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative py-25 px-6 bg-slate-950 text-white overflow-hidden scroll-mt-24"
+      className="relative pt-22 py-25 px-6 bg-slate-950 text-white overflow-hidden scroll-mt-24"
     >
       {/* Background Glow */}
       <div className="absolute inset-0 -z-10">

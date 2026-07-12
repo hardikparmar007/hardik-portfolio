@@ -27,7 +27,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="relative scroll-mt-20 pt-20 pb-5 px-6 bg-slate-950 text-white overflow-hidden"
+      className="relative scroll-mt-20 pt-22 pb-5 px-6 bg-slate-950 text-white overflow-hidden"
     >
       {/* Background Glow */}
       <div className="absolute inset-0 -z-10">

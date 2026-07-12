@@ -37,7 +37,7 @@ export default function About() {
         {/* Main Content */}
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Profile Card */}
-          <div className="flex justify-center">
+          <div className="flex justify-center -mt-2">
   <motion.div
     whileHover={{ y: -8, scale: 1.02 }}
     transition={{ type: "spring", stiffness: 250 }}
@@ -47,7 +47,7 @@ export default function About() {
     <div className="absolute -inset-10 bg-cyan-500/10 blur-3xl rounded-full" />
 
     <div className="relative text-center">
-      <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-cyan-400 shadow-lg mx-auto justify-center mt-1">
+      <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-cyan-400 shadow-lg mx-auto justify-center mt-3">
         <Image
           src="/pp.png"
           alt="Parmar Hardik"
@@ -85,7 +85,7 @@ export default function About() {
         </div>
 
         {/* Bottom Cards */}
-        <div className="grid md:grid-cols-2 gap-8 mt-6">
+        <div className="grid md:grid-cols-2 gap-15 mt-3">
           {[
             {
               title: "Education",
